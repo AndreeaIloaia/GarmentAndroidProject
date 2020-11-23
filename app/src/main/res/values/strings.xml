@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Tailor\'s app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="item_list_fragment_label">Garments List</string>
+    <string name="item_edit_fragment_label">Garment Edit</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="item_list_fragment">Garments list fragment</string>
+    <string name="item_edit_fragment">Garment edit fragment</string>
+
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must not be empty</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="name">Nume</string>
+    <string name="material">Material</string>
+    <string name="inaltime">Inaltime</string>
+    <string name="latime">Latime</string>
+    <string name="descriere">Descriere</string>
+</resources>

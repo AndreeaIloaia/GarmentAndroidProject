@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".todo.item.GarmentEditFragment">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="@dimen/text_margin">
+
+
+        <EditText
+            android:id="@+id/item_text"
+            style="@style/EditText.Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/item_material"
+            style="@style/EditText.Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/material" />
+
+        <EditText
+            android:id="@+id/item_inaltime"
+            style="@style/EditText.Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/inaltime" />
+
+        <EditText
+            android:id="@+id/item_latime"
+            style="@style/EditText.Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/latime" />
+
+        <EditText
+            android:id="@+id/item_descriere"
+            style="@style/EditText.Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/descriere" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        app:backgroundTint="@color/colorPrimary"/>
+
+
+</FrameLayout>
