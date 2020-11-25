@@ -53,9 +53,10 @@ abstract class TodoDatabase : RoomDatabase() {
 
         suspend fun populateDatabase(garmentDao: GarmentDao) {
             //TODO populateDatabse
-            garmentDao.deleteAll()
-//            val garment = Garment("1","da","da","da","da","da")
-//            garmentDao.insert(garment)
+//            garmentDao.deleteAll()
+            val garment = Garment("1","da","da","da","da","da")
+            garmentDao.insert(garment)
+
         }
     }
 

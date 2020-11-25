@@ -52,6 +52,7 @@ class GarmentEditFragment : Fragment() {
             Log.v(TAG, "save item")
             val i = garment
             if (i != null) {
+                Log.d(TAG, "ID:" + i._id)
                 i.name = item_text.text.toString()
                 i.material = item_material.text.toString()
                 i.inaltime = item_inaltime.text.toString()

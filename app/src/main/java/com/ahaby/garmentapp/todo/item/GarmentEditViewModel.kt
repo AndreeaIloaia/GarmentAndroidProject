@@ -39,6 +39,8 @@ class GarmentEditViewModel(application: Application) : AndroidViewModel(applicat
             mutableException.value = null
             val result: Result<Garment>
             if (garment._id.isNotEmpty()) {
+                Log.d(TAG, "ID:" + garment._id)
+
                 result = garmentRepository.update(garment)
             } else {
                 result = garmentRepository.save(garment)
