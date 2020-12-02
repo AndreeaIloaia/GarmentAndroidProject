@@ -56,7 +56,6 @@ abstract class TodoDatabase : RoomDatabase() {
 //            garmentDao.deleteAll()
             val garment = Garment("1","da","da","da","da","da")
             garmentDao.insert(garment)
-
         }
     }
 

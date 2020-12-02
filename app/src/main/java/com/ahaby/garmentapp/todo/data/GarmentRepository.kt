@@ -43,6 +43,7 @@ class GarmentRepository(private val garmentDao: GarmentDao) {
             Log.v(TAG, garment.name);
             return Result.Success(createdItem)
         } catch(e: Exception) {
+            garmentDao.insert(garment)
             return Result.Error(e)
         }
     }
